@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "My father has never once said 'I love you.' Last weekend he spent three hours building my daughter a bookshelf, stood back, nodded once, and said, 'It'll hold.'";
+  "My father has never once said 'I love you.' Last weekend he spent three hours building his granddaughter a bookshelf, stood back, nodded once, and said, 'It'll hold.'";
 
 if (ENTRY.length < 1 || ENTRY.length > 280 || ENTRY.trim().length === 0) {
   throw new Error(`entry must be 1-280 chars, got ${ENTRY.length}`);
